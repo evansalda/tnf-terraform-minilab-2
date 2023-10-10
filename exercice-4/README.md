@@ -1,6 +1,6 @@
 # Exercice 4
 
-- A l’aide du Meta-Argument ignore_change, créez un bucket S3 nommé nuumfactory-s3-ignore-changes-XX avec un tag nommé **club-de-football** dont la valeur (de votre choix) ne sera pas trackée par terraform.
+- A l’aide du Meta-Argument **ignore_change**, créez un bucket S3 nommé nuumfactory-s3-ignore-changes-XX avec un tag nommé **club-de-football** dont la valeur (de votre choix) ne sera pas trackée par terraform.
 
 - Depuis la console AWS, modifiez la valeur du tag **club-de-football** puis exécutez la commande **terraform plan** : constatez que terraform n’atteste d’aucun changement.
 
