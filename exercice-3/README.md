@@ -9,7 +9,7 @@
 
 - Modifiez la description du security group et exécutez la commande **terraform plan**.
 
-- Exécutez la commande **terraform plan** et observez le message que terraform vous retourne.
+- Exécutez la commande **terraform destroy -auto-approve** et observez le message que terraform vous retourne.
 
 Le message apparaît car modifier la description d'un security group nécessite sa suppression puis recréation. Or, le Meta-Argument prevent_destroy empêche la suppression du security group.
 
